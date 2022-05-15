@@ -3,7 +3,7 @@ package com.example.demo.problems;
 public class Problems1 {
 
     public static void main(String[] args) {
-        // Que 1
+        // Question 1 : given a string find position of each alphabet in string
         findPositionOfCharactersInString();
     }
 
