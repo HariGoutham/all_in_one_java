@@ -19,29 +19,6 @@ public class C1ImperativeDeclarative {
         removeDuplicatesFromListInJava8(integerList);
     }
 
-    private static void removeDuplicatesFromListInJava8(List<Integer> integerList) {
-        /**
-         * Declarative Syle
-         */
-
-        List<Integer> uniqueList1 = integerList.stream()
-                .distinct()
-                .collect(toList());
-        System.out.println("uniqueList1 : " + uniqueList1);
-    }
-
-    private static void removeDuplicatesFromListBeforeJava8(List<Integer> integerList) {
-        /**
-         * Imperative Style
-         */
-        List<Integer> uniqueList = new ArrayList<>();
-        for(Integer i : integerList)
-            if(!uniqueList.contains(i)){
-                uniqueList.add(i);
-            }
-        System.out.println("unique List : " + uniqueList);
-    }
-
     private static void sumBeforeJava8Example() {
         // sum of integers for the range from 0 to 100
         /**
@@ -67,5 +44,28 @@ public class C1ImperativeDeclarative {
                 .sum();
 
         System.out.println("sum1 : " + sum1);
+    }
+
+    private static void removeDuplicatesFromListInJava8(List<Integer> integerList) {
+        /**
+         * Declarative Syle
+         */
+
+        List<Integer> uniqueList1 = integerList.stream()
+                .distinct()
+                .collect(toList());
+        System.out.println("uniqueList1 : " + uniqueList1);
+    }
+
+    private static void removeDuplicatesFromListBeforeJava8(List<Integer> integerList) {
+        /**
+         * Imperative Style
+         */
+        List<Integer> uniqueList = new ArrayList<>();
+        for(Integer i : integerList)
+            if(!uniqueList.contains(i)){
+                uniqueList.add(i);
+            }
+        System.out.println("unique List : " + uniqueList);
     }
 }
