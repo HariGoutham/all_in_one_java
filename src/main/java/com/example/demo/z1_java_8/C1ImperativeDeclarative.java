@@ -1,4 +1,4 @@
-package com.example.demo.java8;
+package com.example.demo.z1_java_8;
 
 import java.util.ArrayList;
 import java.util.Arrays;

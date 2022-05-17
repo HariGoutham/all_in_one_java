@@ -1,8 +1,7 @@
-package com.example.demo.java8;
+package com.example.demo.z1_java_8;
 
 import com.example.demo.model.Staff;
 import com.example.demo.model.StaffPublic;
-import com.example.demo.utilities.SetterGetterUtil;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.InvocationTargetException;

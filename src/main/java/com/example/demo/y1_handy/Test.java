@@ -1,7 +1,4 @@
-package com.example.demo.handy;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
+package com.example.demo.y1_handy;
 
 public class Test {
 
