@@ -52,11 +52,7 @@ public class MapExample {
             //we can do above with field name and value using getter util
             try {
                 sp.setName((String) callGetter("name", sp));
-            } catch (IntrospectionException e) {
-                throw new RuntimeException(e);
-            } catch (InvocationTargetException e) {
-                throw new RuntimeException(e);
-            } catch (IllegalAccessException e) {
+            } catch (IntrospectionException | InvocationTargetException | IllegalAccessException e) {
                 throw new RuntimeException(e);
             }
             sp.setAge(temp.getAge());
