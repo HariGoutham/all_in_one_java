@@ -1,5 +1,9 @@
 package com.example.demo.z3_problems;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.stream.Collectors;
+
 public class Problems1 {
 
     public static void main(String[] args) {
@@ -7,9 +11,10 @@ public class Problems1 {
         findPositionOfCharactersInString();
         findPositionOfCharactersInStringJava8();
         
-        // Question 2 :
-    }
+        // Question 2 : remove duplicates and sort in descending order from list
+        removeDuplicatesAndSortInDescendingFromList();
 
+    }
     private static void findPositionOfCharactersInString() {
         String str = "demo";
         String strUpper = str.toUpperCase();
@@ -27,5 +32,9 @@ public class Problems1 {
         str.toUpperCase().chars().forEach( i -> {
             System.out.println((char) i +"= "+"positioned at "+j[0]++);
         });
+    }
+    private static void removeDuplicatesAndSortInDescendingFromList() {
+        var v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
+        System.out.println(v.stream().distinct().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
 }
