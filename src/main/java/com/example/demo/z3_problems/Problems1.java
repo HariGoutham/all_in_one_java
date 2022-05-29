@@ -14,7 +14,26 @@ public class Problems1 {
         // Question 2 : remove duplicates and sort in descending order from list
         removeDuplicatesAndSortInDescendingFromList();
 
+        // Question 3 : reverse a string
+        extracted();
+
     }
+
+    private static void extracted() {
+        var v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
+        String s = "Hari";
+        System.out.println(new StringBuilder(s).reverse().toString());
+
+        char[] v1 = s.toCharArray();
+
+        for(int i=0,j = (v1.length-1); i < v1.length/2;  i++,j--){
+            char temp = v1[i];
+            v1[i] = v1[j];
+            v1[j] = temp;
+        }
+        System.out.println(String.valueOf(v1));
+    }
+
     private static void findPositionOfCharactersInString() {
         String str = "demo";
         String strUpper = str.toUpperCase();
