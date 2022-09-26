@@ -13,8 +13,8 @@ public class SetterGetterUtil {
      */
     public static <T> void setFields(T fromObject, T toObject) throws IntrospectionException, InvocationTargetException, IllegalAccessException {
         Field[] fields = fromObject.getClass().getDeclaredFields();
-        for(Field f : fields){
-            if(Objects.nonNull(callGetter(f.getName(), fromObject))) {
+        for (Field f : fields) {
+            if (Objects.nonNull(callGetter(f.getName(), fromObject))) {
                 callSetter(toObject, f.getName(), callGetter(f.getName(), fromObject));
             }
         }
@@ -29,7 +29,7 @@ public class SetterGetterUtil {
     }
 
     /*
-    This is a setter method which sets the value with fieldname as paramater
+    This is a setter method which sets the value with field name as parameter
      */
     public static void callSetter(Object obj, String fieldName, Object value) throws IntrospectionException, InvocationTargetException, IllegalAccessException {
         PropertyDescriptor pd = new PropertyDescriptor(fieldName, obj.getClass());

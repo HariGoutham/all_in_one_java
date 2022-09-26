@@ -1,0 +1,12 @@
+C:\kafka\bin\windows
+--create folders inside data folder for kafka and zookeeper
+log.dirs=C:/Users/vn513jf/kafka/data/kafka
+dataDir=C:/Users/vn513jf/kafka/data/zookeeper
+
+zookeeper-server-start.bat ../../config/zookeeper.properties
+kafka-server-start.bat ../../config/server.properties
+kafka-topics.bat –zookeeper localhost:2181 –topic KAFKA_CONSOLIDATION_LISTENER_TOPIC_A –create –partitions 3 –replication-factor 1
+kafka-topics.bat –zookeeper localhost:2181 –topic KAFKA_CONSOLIDATION_LISTENER_TOPIC_A –describe
+kafka-console-consumer.bat –bootstrap-server localhost:9092 –topic KAFKA_CONSOLIDATION_LISTENER_TOPIC
+kafka-console-producer.bat –broker-list localhost:9092 –topic KAFKA_CONSOLIDATION_LISTENER_TOPIC
+

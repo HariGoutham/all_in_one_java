@@ -33,7 +33,7 @@ public class MapExample {
 
     }
 
-    private static void convertListOfOneObjectToListOfAnotherObject() throws InvocationTargetException, IllegalAccessException{
+    private static void convertListOfOneObjectToListOfAnotherObject() throws InvocationTargetException, IllegalAccessException {
         List<Staff> staff = Arrays.asList(
                 new Staff("mkyong", 30, new BigDecimal(10000)),
                 new Staff("jack", 27, new BigDecimal(20000)),
