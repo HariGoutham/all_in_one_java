@@ -2,6 +2,7 @@ package com.example.demo.z3_problems;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class Problems1 {
@@ -20,7 +21,7 @@ public class Problems1 {
     }
 
     private static void extracted() {
-        var v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
+        List<Integer> v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
         String s = "Hari";
         System.out.println(new StringBuilder(s).reverse().toString());
 
@@ -53,7 +54,7 @@ public class Problems1 {
         });
     }
     private static void removeDuplicatesAndSortInDescendingFromList() {
-        var v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
+        List<Integer> v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
         System.out.println(v.stream().distinct().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
 }
