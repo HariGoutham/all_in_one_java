@@ -5,23 +5,22 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Problems1 {
+public class Problems1_String {
 
     public static void main(String[] args) {
         // Question 1 : given a string find position of each alphabet in string
-        findPositionOfCharactersInString();
-        findPositionOfCharactersInStringJava8();
+        findPositionsOfAllCharactersInString();
+        findPositionsOfAllCharactersInStringJava8();
         
         // Question 2 : remove duplicates and sort in descending order from list
         removeDuplicatesAndSortInDescendingFromList();
 
         // Question 3 : reverse a string
-        extracted();
+        reverseAString();
 
     }
 
-    private static void extracted() {
-        List<Integer> v = Arrays.asList(22,3,5,6,22,67,34,3,5,12,22,32,12);
+    private static void reverseAString() {
         String s = "Hari";
         System.out.println(new StringBuilder(s).reverse().toString());
 
@@ -35,7 +34,7 @@ public class Problems1 {
         System.out.println(String.valueOf(v1));
     }
 
-    private static void findPositionOfCharactersInString() {
+    private static void findPositionsOfAllCharactersInString() {
         String str = "demo";
         String strUpper = str.toUpperCase();
         char[] ch = strUpper.toCharArray();
@@ -45,7 +44,7 @@ public class Problems1 {
         }
     }
 
-    private static void findPositionOfCharactersInStringJava8() {
+    private static void findPositionsOfAllCharactersInStringJava8() {
         String str = "demo";
         final int[] j = {1};
         //TODO enhance the below without using array

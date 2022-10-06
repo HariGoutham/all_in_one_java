@@ -1,4 +1,4 @@
-package com.example.demo.z2_standalone;
+package com.example.demo.z2_standalone_reusables;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.*;

@@ -1,7 +1,7 @@
-package com.example.demo.z1_java_8;
+package com.example.demo.z1_java_8_concepts;
 
-import com.example.demo.model.Staff;
-import com.example.demo.model.StaffPublic;
+import com.example.demo.models.Staff;
+import com.example.demo.models.StaffPublic;
 
 import java.beans.IntrospectionException;
 import java.lang.reflect.InvocationTargetException;
