@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 import static com.example.demo.utilities.SetterGetterUtil.callGetter;
 
-public class MapExample {
+public class Xample1Map {
 
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
 

@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
 
-public class C1ImperativeDeclarative {
+public class Section1ImperativeDeclarative {
 
     public static void main(String[] args) {
         sumBeforeJava8Example();
@@ -45,18 +45,6 @@ public class C1ImperativeDeclarative {
 
         System.out.println("sum1 : " + sum1);
     }
-
-    private static void removeDuplicatesFromListInJava8(List<Integer> integerList) {
-        /*
-          Declarative Style
-         */
-
-        List<Integer> uniqueList1 = integerList.stream()
-                .distinct()
-                .collect(toList());
-        System.out.println("uniqueList1 : " + uniqueList1);
-    }
-
     private static void removeDuplicatesFromListBeforeJava8(List<Integer> integerList) {
         /*
           Imperative Style
@@ -67,5 +55,16 @@ public class C1ImperativeDeclarative {
                 uniqueList.add(i);
             }
         System.out.println("unique List : " + uniqueList);
+    }
+
+    private static void removeDuplicatesFromListInJava8(List<Integer> integerList) {
+        /*
+          Declarative Style
+         */
+
+        List<Integer> uniqueList1 = integerList.stream()
+                .distinct()
+                .collect(toList());
+        System.out.println("uniqueList1 : " + uniqueList1);
     }
 }
