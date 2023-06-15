@@ -20,7 +20,18 @@ public class LC1_TwoSum {
         return solution;
     }
 
+    //Solution 2
+    //ToDo
+
+
+    public static int[] twoSum2(int[] nums, int target) {
+
+        int[] solution = new int[2];
+
+        return solution;
+    }
+
     public static void main(String[] args) {
-        Arrays.stream(twoSum(new int[]{ 1,2,3,4,5,6,7,8,9,10 }, 9)).forEach(a-> System.out.println(a));
+       Arrays.stream(twoSum(new int[]{ 1,2,3,4,5,6,7,8,9,10 }, 9)).forEach(a-> System.out.println(a));
     }
 }

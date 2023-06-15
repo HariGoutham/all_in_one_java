@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Problems1_String {
+public class GEN_PROB1_String {
 
     public static void main(String[] args) {
         // Question 1 : given a string find position of each alphabet in string
