@@ -1,9 +1,25 @@
 package java8_features.j8_2_streams.streams_factory_methods;
 
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+// Streams API - Factory Methods: of(), iterate(), and generate()
 
-public class StreamFactoryMethods {
+// The provided examples demonstrate the following:
+//
+// 1. Stream.of():
+//    - Creates a stream with explicitly provided values.
+//    - It is ideal for creating small streams with predefined elements.
+//
+// 2. Stream.iterate():
+//    - Starts with an initial value (seed) and applies a function repeatedly to generate subsequent elements.
+//    - Creates an infinite stream. Use limit() to control the size.
+//
+// 3. Stream.generate():
+//    - Uses a Supplier to produce an infinite stream where each element is generated independently.
+//    - It’s also commonly restricted with limit() for practical use.
+
+import java.util.stream.Stream;
+import java.util.function.Supplier;
+
+public class StreamFactoryMethods{
 
     public static void main(String[] args) {
 
