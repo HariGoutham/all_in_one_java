@@ -1,25 +1,3 @@
-# Basics
-
-**Expressions, Data Types, Operators, Statements**  
-**Control Flow (if, switch, loops)**  
-**Strings, StringBuilder, StringBuffer**  
-**Arrays, Enums, Varargs**  
-**Autoboxing and Unboxing**  
-**Static and Final Keywords**  
-**Object-Oriented Programming (OOP)**  
-**Classes and Objects**  
-**Inheritance**  
-**Polymorphism**  
-**Abstraction**  
-**Encapsulation**  
-**Access Modifiers**  
-**Method Overloading and Overriding**  
-**Final, Immutable Classes, and Sealed Classes**  
-**Constructors and Initializers**  
-**Nested Classes and Types (Inner, Static, Anonymous Classes)**
-
----
-
 ## Key Interview Questions
 1. **What is the difference between `String`, `StringBuilder`, and `StringBuffer`?**
 2. **How does the String Pool work?**
