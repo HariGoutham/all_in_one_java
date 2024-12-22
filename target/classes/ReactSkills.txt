@@ -1,0 +1,22 @@
+If you're a frontend developer and your core skills is React. I suggest you learn the concepts below in depth
+
+1. Hoisting
+2. Closure
+3. Promise
+4. Function currying
+5. Execution context
+6. Call, apply, Bind
+7. Polyfills for most common array and string methods.
+
+React
+1. Reconciliation
+2. Hooks
+3. Class v/s functional components
+4. Memoization
+5. HOC
+6. Performance
+7. Reac Router
+8. Caching
+9. Security
+10. Improving perfomance
+11. Memory leaks
