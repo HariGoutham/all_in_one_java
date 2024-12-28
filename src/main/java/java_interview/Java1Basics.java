@@ -90,8 +90,8 @@ public class Java1Basics {
         System.out.println("Initial: " + initial);
         System.out.println("Is Employed: " + isEmployed);
 
-        // Primitive Types Recap and the String Data Type
-        String name = "John Doe"; // String type
+        // Primitive Types Recap and the StringStringBuilderStringBuffer Data Type
+        String name = "John Doe"; // StringStringBuilderStringBuffer type
         System.out.println("\nName: " + name);
 
         // Operators, Operands and Expressions

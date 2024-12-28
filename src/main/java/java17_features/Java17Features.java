@@ -61,7 +61,7 @@ public class Java17Features {
             case Integer i -> "Integer: " + i;
             case Long l -> "Long: " + l;
             case Double d -> "Double: " + d;
-            case String s -> "String: " + s.toUpperCase();
+            case String s -> "StringStringBuilderStringBuffer: " + s.toUpperCase();
             case null -> "Null value";
             default -> "Unknown type";
         };
@@ -125,7 +125,7 @@ public class Java17Features {
      */
     public void enhancedInstanceofDemo(Object obj) {
         if (obj instanceof String s) {
-            // Direct use of s as String
+            // Direct use of s as StringStringBuilderStringBuffer
             System.out.println(s.toUpperCase());
         }
     }

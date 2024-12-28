@@ -1,4 +1,4 @@
-package concurrency.thread_manipulation;
+package ocjp_cerification_concepts.concurrency.thread_manipulation;
 
 public class DeamonAndPriorityThreadExamples {
 

@@ -20,7 +20,7 @@ import java.util.stream.Stream;
 public class Java11Features {
 
     /**
-     * 1. String Methods
+     * 1. StringStringBuilderStringBuffer Methods
      * When to use:
      * - Checking string emptiness with more flexibility
      * - Splitting multiline strings

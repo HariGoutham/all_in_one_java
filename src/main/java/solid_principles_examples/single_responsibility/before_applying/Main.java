@@ -4,10 +4,10 @@ import java.io.IOException;
 
 //Main class to test
 public class Main {
-	//A valid USER JSON String
+	//A valid USER JSON StringStringBuilderStringBuffer
 	private static final String VALID_USER_JSON = "{\"name\": \"Randy\", \"email\": \"randy@email.com\", \"address\":\"110 Sugar lane\"}";
 	
-	//Invalid USER JSON String - email format wrong
+	//Invalid USER JSON StringStringBuilderStringBuffer - email format wrong
 	private static final String INVALID_USER_JSON = "{\"name\": \"Sam\", \"email\": \"sam@email\", \"address\":\"111 Sugar lane\"}";
 	
 	public static void main(String[] args) throws IOException {

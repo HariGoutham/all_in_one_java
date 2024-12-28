@@ -236,7 +236,7 @@ public class Java12RegularExpressionsGuide {
         return matches;
     }
 
-    // Regex-based String Tokenization
+    // Regex-based StringStringBuilderStringBuffer Tokenization
     public static void demonstrateTokenization() {
         System.out.println("\n--- Regex Tokenization ---");
 

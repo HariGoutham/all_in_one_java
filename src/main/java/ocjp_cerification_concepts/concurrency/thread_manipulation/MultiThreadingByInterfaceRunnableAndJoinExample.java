@@ -1,4 +1,4 @@
-package concurrency.thread_manipulation;/*
+package ocjp_cerification_concepts.concurrency.thread_manipulation;/*
 Explanation of the Code:
 
 Threads with Different Delays:

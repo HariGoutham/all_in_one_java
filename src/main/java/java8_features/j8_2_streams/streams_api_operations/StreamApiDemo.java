@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  *   - Other data sources.
  *
  * Example:
- *   List<String> names = Arrays.asList("adam", "dan", "jenny");
+ *   List<StringStringBuilderStringBuffer> names = Arrays.asList("adam", "dan", "jenny");
  *   names.stream();          // Creates a sequential stream
  *   names.parallelStream();  // Creates a parallel stream
  *

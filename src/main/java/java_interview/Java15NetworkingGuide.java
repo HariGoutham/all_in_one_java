@@ -222,7 +222,7 @@ public class Java15NetworkingGuide {
 //            WebSocket webSocket = builder.buildAsync(
 //                    URI.create("ws://localhost:8080/chat"),
 //                    new WebSocket.Listener() {
-//                        private CompletableFuture<String> accumulatedMessage = new CompletableFuture<>();
+//                        private CompletableFuture<StringStringBuilderStringBuffer> accumulatedMessage = new CompletableFuture<>();
 //                        private StringBuilder messageBuffer = new StringBuilder();
 //
 //                        @Override
@@ -230,7 +230,7 @@ public class Java15NetworkingGuide {
 //                            messageBuffer.append(data);
 //
 //                            if (last) {
-//                                String fullMessage = messageBuffer.toString();
+//                                StringStringBuilderStringBuffer fullMessage = messageBuffer.toString();
 //                                System.out.println("Received WebSocket Message: " + fullMessage);
 //
 //                                // Reset for next message
@@ -244,7 +244,7 @@ public class Java15NetworkingGuide {
 //                        }
 //
 //                        @Override
-//                        public CompletionStage<?> onClose(WebSocket webSocket, int statusCode, String reason) {
+//                        public CompletionStage<?> onClose(WebSocket webSocket, int statusCode, StringStringBuilderStringBuffer reason) {
 //                            System.out.println("WebSocket Closed: " + reason);
 //                            return CompletableFuture.completedFuture(null);
 //                        }

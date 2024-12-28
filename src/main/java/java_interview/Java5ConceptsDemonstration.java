@@ -12,7 +12,7 @@
  * 7. java.lang.Object
  * 8. this vs super
  * 9. Method Overloading vs Overriding
- * 10. String Manipulation
+ * 10. StringStringBuilderStringBuffer Manipulation
  * 11. Type Casting and instanceof
  * 12. Packages and Import Statements
  */
@@ -129,7 +129,7 @@ public class Java5ConceptsDemonstration {
         person1.introduce();
         person1.introduce("Hi there");
 
-        // String Manipulation
+        // StringStringBuilderStringBuffer Manipulation
         String fullName = person1.getName() + " Doe";
         System.out.println("Full Name: " + fullName.toUpperCase());
 

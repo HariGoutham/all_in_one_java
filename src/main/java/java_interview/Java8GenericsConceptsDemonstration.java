@@ -124,7 +124,7 @@ public class Java8GenericsConceptsDemonstration {
         List<String> stringList = GenericsUtility.createList("A", "B", "C");
         List<Integer> integerList = GenericsUtility.createList(1, 2, 3);
 
-        System.out.println("String List: " + stringList);
+        System.out.println("StringStringBuilderStringBuffer List: " + stringList);
         System.out.println("Integer List: " + integerList);
 
         // 7. Type Erasure Demonstration
@@ -140,7 +140,7 @@ public class Java8GenericsConceptsDemonstration {
 
         // Both become List at runtime
         System.out.println("Type Erasure:");
-        System.out.println("String List Class: " + stringList.getClass());
+        System.out.println("StringStringBuilderStringBuffer List Class: " + stringList.getClass());
         System.out.println("Integer List Class: " + integerList.getClass());
 
         // Potential runtime type issues
