@@ -1,4 +1,4 @@
-package ocjp_cerification_concepts.Abstraction;
+package ocjp_cerification_concepts.abstraction;
 
 // Define an interface
 interface Animal {
